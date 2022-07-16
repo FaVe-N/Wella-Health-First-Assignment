@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    padding: 0 5%;
+    font-family: sans-serif;
+}
+#header {
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-top: 6px;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    color: black;
+}
+h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.login {
+    border-color: black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: white;
+}
+.get {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.rent {
+    align-items: left;
+    width: 120%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.rent img{
+    height: 40%;
+    width: 30%;
+}
+.rent p{
+    margin: 0.5rem 0;
+}
+.property {
+color: white;
+background-color: black;
+border: none;
+padding: 10px 30px;
+}
+.frame-163{
+    display: flex;
+    flex: content;
+    justify-content: right;
+    align-content: right;
+    height: 50%;
+    width: 25%;
+}
+.trust p{
+    text-align: center;
+    color: grey;
+    margin-bottom: 3%;
+}
+.trust img {
+    width: 10%;
+    height: 10%;
+    color: grey;
+    margin-right: 5%;
+}
+.why  h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+.trust{
+    display: flex;
+    flex-direction: column;
+}
+.all{
+    background-color: black;
+    color: white;
+    
+}
+.all p{
+    margin: 20px 40px;
+}
+.divider {
+    position: relative;
+    justify-items: right;
+    left: 46%;
+    width: 1px;
+    height: 150px;
+    background-color: #ffffff;
+}
+.get-a-prop {
+    margin-top: 8%;
+    text-align: center;
+}
+.three-steps {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.clients{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+
+   }
+   .clients h3{
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+   }
+   .pre-footer{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    max-width: 100%;
+    justify-content: center;
+    gap: 5px;
+   }
+   .first-span{
+    text-align: center;
+    border: 1px solid #000000;
+    height: 40vh;
+    width: 15%;
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12px;
+   }
+   .span-m-p{
+    padding-top: 5.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   }
+   .second-span{
+    text-align: center;
+    border: 1px solid #000000;
+    width: 15%;
+    height: 40vh;
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12.5px;
+   }
+   .span-a-a{
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   }
+   .third-span{
+    text-align: center;
+    border: 1px solid #000000;
+    height: 40vh;
+    width: 15%;
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12.3px;
+   }
+   .span-m{
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 8rem;
+    position: absolute;
+    top: -7rem;
+   }
+   .span-a{
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 5px;
+    position: absolute;
+    top: 1rem;
+   }
+   .span-c{
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 5px;
+    position: absolute;
+    top: 1rem;
+   }
+   .span-c-c{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+   }
+   footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+   }
+   footer img{
+    width: 90px;
+   }
